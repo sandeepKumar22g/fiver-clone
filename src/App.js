@@ -1,8 +1,7 @@
 import './App.css';
 import React from 'react'
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Navbar from './components/navbar/Navbar';
-import Footer from './components/footer/Footer';
+import {Navbar, Footer} from './components';
 import {Add,Gig, Gigs,Home,Login, Message, Messages,MyGigs,MyOrders,Register} from "./pages"
 
 function App() {

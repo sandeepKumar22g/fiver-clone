@@ -19,16 +19,16 @@ function Navbar() {
     };
   }, []);
 
-  const currentUser = null
+  // const currentUser = null
 
-  // const currentUser = {
-  //   id: 1,
-  //   username: "Anna",
-  //   isSeller: true,
-  // };
+  const currentUser = {
+    id: 1,
+    username: "Anna",
+    isSeller: true,
+  };
 
   return (
-    <div className={active || pathname !== "/" ? "navbar active" : "navbar"}>
+    <div className={active || pathname !== "/" ? "navbar sticky-md-top active" : "navbar sticky-md-top"}>
       <div className="container">
         <div className="logo">
           <Link className="link" to="/">
@@ -83,6 +83,7 @@ function Navbar() {
       {(active || pathname !== "/") && (
         <>
           <hr />
+          <div className="container p-0"> 
           <div className="menu">
             <Link className="link menuLink" to="/">
               Graphics & Design
@@ -111,6 +112,7 @@ function Navbar() {
             <Link className="link menuLink" to="/">
               Lifestyle
             </Link>
+          </div>
           </div>
           <hr />
         </>
