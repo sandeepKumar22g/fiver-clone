@@ -1,7 +1,7 @@
 import React from 'react'
-import { CatCard, Featured, Slide, TrustedBy, Explorer } from '../../components'
+import { CatCard, Featured, Slide, TrustedBy, Explorer, ProjectCard } from '../../components'
 import "./home.scss"
-import { cards } from '../../data'
+import { cards, projects } from '../../data'
 
 const Home = () => {
   return (
@@ -14,7 +14,11 @@ const Home = () => {
         ))}
       </Slide>
       <Explorer />
-      
+      <Slide >
+        {projects.map((card) => (
+          <ProjectCard key={card.id} card={card} />
+        ))}
+      </Slide>
     </div>
   )
 }

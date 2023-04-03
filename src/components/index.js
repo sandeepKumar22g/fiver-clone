@@ -5,5 +5,6 @@ import TrustedBy from "./trustedby/TrustedBy"
 import Slide from "./slide/Slide"
 import CatCard from "./catCard/CatCard"
 import Explorer from "./explorer/Explorer"
+import ProjectCard from "./projectCard/ProjectCard"
 
-export { Navbar, Featured, Footer, TrustedBy, Slide, CatCard, Explorer }
+export { Navbar, Featured, Footer, TrustedBy, Slide, CatCard, Explorer, ProjectCard }
