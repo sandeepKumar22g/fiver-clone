@@ -1,5 +1,5 @@
 import React from 'react'
-import {Featured, TrustedBy} from '../../components'
+import {Featured, TrustedBy } from '../../components'
 import "./home.scss"
 
 const Home = () => {
@@ -7,6 +7,7 @@ const Home = () => {
     <div className='home' >
       <Featured />
       <TrustedBy />
+      
     </div>
   )
 }

@@ -62,9 +62,9 @@ function App() {
       path: "/login",
       element: <Login />,
     },
-  ]);
+  ], {basename:"/liv"});
 
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={router}  />;
 }
 
 export default App;

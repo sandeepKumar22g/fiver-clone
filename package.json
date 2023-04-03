@@ -37,10 +37,15 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ],
+    "typeRoots": [
+      "../node_modules/@types",
+      "../@types"
     ]
   },
   "devDependencies": {
     "eslint": "^8.36.0",
-    "eslint-plugin-react": "^7.32.2"
+    "eslint-plugin-react": "^7.32.2",
+    "infinite-react-carousel": "^1.2.11"
   }
 }
