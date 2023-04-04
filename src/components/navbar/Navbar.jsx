@@ -85,31 +85,31 @@ function Navbar() {
           <hr />
           <div className="container p-0"> 
           <div className="menu">
-            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
+            <Link className="link menuLink" to="/gigs" style={{textDecoration:"none"}} >
               Graphics & Design
             </Link>
-            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
+            <Link className="link menuLink" to="/gigs" style={{textDecoration:"none"}} >
               Video & Animation
             </Link>
-            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
+            <Link className="link menuLink" to="/gigs" style={{textDecoration:"none"}} >
               Writing & Translation
             </Link>
-            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
+            <Link className="link menuLink" to="/gigs" style={{textDecoration:"none"}} >
               AI Services
             </Link>
-            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
+            <Link className="link menuLink" to="/gigs" style={{textDecoration:"none"}} >
               Digital Marketing
             </Link>
-            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
+            <Link className="link menuLink" to="/gigs" style={{textDecoration:"none"}} >
               Music & Audio
             </Link>
-            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
+            <Link className="link menuLink" to="/gigs" style={{textDecoration:"none"}} >
               Programming & Tech
             </Link>
-            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
+            <Link className="link menuLink" to="/gigs" style={{textDecoration:"none"}} >
               Business
             </Link>
-            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
+            <Link className="link menuLink" to="/gigs" style={{textDecoration:"none"}} >
               Lifestyle
             </Link>
           </div>
