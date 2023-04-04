@@ -62,7 +62,7 @@ function App() {
       path: "/login",
       element: <Login />,
     },
-  ], {basename:"/liv"});
+  ], {basename:"/fiverr-clone"});
 
   return <RouterProvider router={router}  />;
 }

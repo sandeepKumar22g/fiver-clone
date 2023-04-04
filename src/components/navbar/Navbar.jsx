@@ -31,8 +31,8 @@ function Navbar() {
     <div className={active || pathname !== "/" ? "navbar sticky-md-top active" : "navbar sticky-md-top"}>
       <div className="container">
         <div className="logo">
-          <Link className="link" to="/">
-            <span className="text">liverr</span>
+          <Link className="link" to="/" style={{textDecoration:"none"}}>
+            <span className="text">fiverr</span>
           </Link>
           <span className="dot">.</span>
         </div>
@@ -51,21 +51,21 @@ function Navbar() {
               {open && <div className="options">
                 {currentUser.isSeller && (
                   <>
-                    <Link className="link" to="/mygigs">
+                    <Link className="link" to="/mygigs" style={{textDecoration:"none"}}>
                       Gigs
                     </Link>
-                    <Link className="link" to="/add">
+                    <Link className="link" to="/add" style={{textDecoration:"none"}}>
                       Add New Gig
                     </Link>
                   </>
                 )}
-                <Link className="link" to="/orders">
+                <Link className="link" to="/orders" style={{textDecoration:"none"}}>
                   Orders
                 </Link>
-                <Link className="link" to="/messages">
+                <Link className="link" to="/messages" style={{textDecoration:"none"}}>
                   Messages
                 </Link>
-                <Link className="link" to="/">
+                <Link className="link" to="/" style={{textDecoration:"none"}}>
                   Logout
                 </Link>
               </div>}
@@ -73,7 +73,7 @@ function Navbar() {
           ) : (
             <>
               <span>Sign in</span>
-              <Link className="link" to="/register">
+              <Link className="link" to="/register" style={{textDecoration:"none"}}>
                 <button>Join</button>
               </Link>
             </>
@@ -85,31 +85,31 @@ function Navbar() {
           <hr />
           <div className="container p-0"> 
           <div className="menu">
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
               Graphics & Design
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
               Video & Animation
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
               Writing & Translation
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
               AI Services
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
               Digital Marketing
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
               Music & Audio
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
               Programming & Tech
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
               Business
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/" style={{textDecoration:"none"}} >
               Lifestyle
             </Link>
           </div>

@@ -6,5 +6,6 @@ import Slide from "./slide/Slide"
 import CatCard from "./catCard/CatCard"
 import Explorer from "./explorer/Explorer"
 import ProjectCard from "./projectCard/ProjectCard"
+import GigCard from "./gigCard/GigCard"
 
-export { Navbar, Featured, Footer, TrustedBy, Slide, CatCard, Explorer, ProjectCard }
+export { Navbar, Featured, Footer, TrustedBy, Slide, CatCard, Explorer, ProjectCard, GigCard }
